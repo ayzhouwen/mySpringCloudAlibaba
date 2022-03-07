@@ -1,0 +1,3 @@
+com\jyzn\common\redis\service\RedisService.class
+com\jyzn\common\redis\configure\RedisConfig.class
+com\jyzn\common\redis\configure\FastJson2JsonRedisSerializer.class

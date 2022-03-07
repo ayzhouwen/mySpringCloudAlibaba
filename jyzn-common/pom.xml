@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.jyzn</groupId>
+        <artifactId>jyzn</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>jyzn-common-core</module>
+        <module>jyzn-common-redis</module>
+    </modules>
+
+    <artifactId>jyzn-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        jyzn-common通用模块
+    </description>
+
+</project>
