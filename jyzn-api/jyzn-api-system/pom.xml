@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.jyzn</groupId>
+        <artifactId>jyzn-api</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    
+    <artifactId>jyzn-api-system</artifactId>
+
+    <description>
+        jyzn-api-system系统接口模块
+    </description>
+
+    <dependencies>
+		
+        <!-- jyzn Common Core-->
+        <dependency>
+            <groupId>com.jyzn</groupId>
+            <artifactId>jyzn-common-core</artifactId>
+        </dependency>
+        
+    </dependencies>
+
+</project>

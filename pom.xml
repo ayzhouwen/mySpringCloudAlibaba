@@ -183,13 +183,27 @@
                 <version>${commons-lang3.version}</version>
             </dependency>
 
+            <!-- 系统接口 -->
+            <dependency>
+                <groupId>com.jyzn</groupId>
+                <artifactId>jyzn-api-system</artifactId>
+                <version>${jyzn.version}</version>
+            </dependency>
 
+            <!-- 安全模块 -->
+            <dependency>
+                <groupId>com.jyzn</groupId>
+                <artifactId>jyzn-common-security</artifactId>
+                <version>${jyzn.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <modules>
         <module>jyzn-gateway</module>
         <module>jyzn-common</module>
+        <module>jyzn-auth</module>
+        <module>jyzn-api</module>
     </modules>
     <packaging>pom</packaging>
 

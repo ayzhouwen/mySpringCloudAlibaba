@@ -9,16 +9,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <modules>
-        <module>jyzn-common-core</module>
-        <module>jyzn-common-redis</module>
-        <module>jyzn-common-security</module>
+        <module>jyzn-api-system</module>
     </modules>
 
-    <artifactId>jyzn-common</artifactId>
+    <artifactId>jyzn-api</artifactId>
     <packaging>pom</packaging>
 
     <description>
-        jyzn-common通用模块
+        jyzn-api系统接口
     </description>
 
 </project>

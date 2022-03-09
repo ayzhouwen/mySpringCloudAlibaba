@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.jyzn</groupId>
+        <artifactId>jyzn-common</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    
+    <artifactId>jyzn-common-security</artifactId>
+
+    <description>
+        jyzn-common-security安全模块
+    </description>
+
+    <dependencies>
+
+        <!-- Spring Web -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+
+        <!-- jyzn Api System -->
+        <dependency>
+            <groupId>com.jyzn</groupId>
+            <artifactId>jyzn-api-system</artifactId>
+        </dependency>
+
+        <!-- jyzn Common Redis-->
+        <dependency>
+            <groupId>com.jyzn</groupId>
+            <artifactId>jyzn-common-redis</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>
